@@ -12,7 +12,7 @@ bot.on('ready', () => {
     console.log("connected.");
     bot.user.setStatus("online");;
     bot.user.setUsername("Suwabot");
-    bot.user.setGame("By Tatic")
+    bot.user.setGame("by Tatic")
 });
 
 function rndInt(min, max) {
