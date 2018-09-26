@@ -79,11 +79,7 @@ bot.on('message', (message) => {
     }
     
     if (message.guild.id === "343166563006021633") {
-        try {
-            message.delete();
-        } catch {
-            console.log("cant delete");
-        }
+        message.delete();
     }
 
 
