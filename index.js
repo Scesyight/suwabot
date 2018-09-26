@@ -77,6 +77,14 @@ bot.on('message', (message) => {
             console.log(message.author.username + " as atteint le level " + userData[sender.id].level)
         }
     }
+    
+    if (message.guild.id === "343166563006021633") {
+        try {
+            message.delete();
+        } catch {
+            console.log("cant delete");
+        }
+    }
 
 
     let XXX = "293767380796964864" //Id du serv
